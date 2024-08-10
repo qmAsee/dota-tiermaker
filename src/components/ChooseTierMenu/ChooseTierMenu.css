@@ -1,0 +1,33 @@
+.tiermenu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: center;
+}
+
+.tiermenu__remove {
+    background-color: rgb(95, 95, 95);
+}
+
+.tiermenu__choose {
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+.tiermenu__choose_s {
+    background-color: rgb(107, 201, 255);
+}
+.tiermenu__choose_a {
+    background-color: rgb(128, 233, 128);;
+}
+.tiermenu__choose_b {
+    background-color: rgb(255, 252, 94);;
+}
+.tiermenu__choose_c {
+    background-color: rgb(255, 194, 82);
+}
+.tiermenu__choose_d {
+    background-color: rgb(255, 82, 82);
+
+}

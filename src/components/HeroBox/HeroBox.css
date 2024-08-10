@@ -1,0 +1,49 @@
+.tiermenu {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, .9);
+    top: -110px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.herobox__hero {
+    position: relative;
+    width: 75px;
+    height: fit-content;
+    transition: transform .07s linear;
+    list-style: none;
+    padding: 4px 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.herobox__hero:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+    z-index: 100000;
+    background-color: black;
+    border-radius: 3px;
+} 
+
+.herobox__name {
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.1;
+    width: 90%;
+    text-overflow: ellipsis;
+}
+
+.herobox__icon {
+    width: 70px;
+}
