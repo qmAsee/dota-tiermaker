@@ -18,13 +18,13 @@ const HeroesList = () => {
 
   async function fetchHeroes() {
     try {
-      const heroList:Hero[] = await new Promise((resolve) => {
+      const heroList:Hero[] = await new Promise((resolve) => {  
         resolve(heroes);
       });
 
       const sortedHeroes = heroList.slice().sort((a: Hero, b: Hero) =>
         a.name_loc.localeCompare(b.name_loc)
-      );
+      ); 
       dispatch(setHeroes(sortedHeroes));
     } catch (err) {
       console.log(err);
@@ -35,7 +35,7 @@ const HeroesList = () => {
     <section className="herolist">
       <div className="herolist__attr herolist__str">
         <div className="herolist__attr-box">
-          <img src="../src/assets/attr_strength.png" alt="strength" className="herolist__attr-icon" />
+          <img src="./src/assets/attr_strength.png" alt="strength" className="herolist__attr-icon" />
           <h3 className="herolist__attr-name">Strength</h3>
         </div>
           <ul className="herolist__container">
@@ -49,7 +49,7 @@ const HeroesList = () => {
 
       <div className="herolist__attr herolist__str">
         <div className="herolist__attr-box">
-          <img src="../src/assets/attr_agility.png" alt="agility" className="herolist__attr-icon" />
+          <img src="./src/assets/attr_agility.png" alt="agility" className="herolist__attr-icon" />
           <h3 className="herolist__attr-name">Agility</h3>
         </div>
         <ul className="herolist__container">
@@ -63,7 +63,7 @@ const HeroesList = () => {
 
       <div className="herolist__attr herolist__str">
         <div className="herolist__attr-box">
-          <img src="../src/assets/attr_intelligence.png" alt="intelligence" className="herolist__attr-icon" />
+          <img src="./src/assets/attr_intelligence.png" alt="intelligence" className="herolist__attr-icon" />
           <h3 className="herolist__attr-name">Intelligence</h3>
         </div>
         <ul className="herolist__container">
