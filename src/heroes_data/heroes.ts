@@ -898,7 +898,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Io",
       "primary_attr": 3,
       "complexity": 3,
-      "image": "/dota-tiermaker/heroThumbnails/IO.png",
+      "image": "/dota-tiermaker/heroThumbnails/io.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
