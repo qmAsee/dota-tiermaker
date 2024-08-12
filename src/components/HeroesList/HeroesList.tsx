@@ -35,7 +35,7 @@ const HeroesList = () => {
     <section className="herolist">
       <div className="herolist__attr herolist__str">
         <div className="herolist__attr-box">
-          <img src="./src/assets/attr_strength.png" alt="strength" className="herolist__attr-icon" />
+          <img src="/dota-tiermaker/attr_strength.png" alt="strength" className="herolist__attr-icon" />
           <h3 className="herolist__attr-name">Strength</h3>
         </div>
           <ul className="herolist__container">
@@ -49,7 +49,7 @@ const HeroesList = () => {
 
       <div className="herolist__attr herolist__str">
         <div className="herolist__attr-box">
-          <img src="./src/assets/attr_agility.png" alt="agility" className="herolist__attr-icon" />
+          <img src="/dota-tiermaker/attr_agility.png" alt="agility" className="herolist__attr-icon" />
           <h3 className="herolist__attr-name">Agility</h3>
         </div>
         <ul className="herolist__container">
@@ -63,12 +63,25 @@ const HeroesList = () => {
 
       <div className="herolist__attr herolist__str">
         <div className="herolist__attr-box">
-          <img src="./src/assets/attr_intelligence.png" alt="intelligence" className="herolist__attr-icon" />
+          <img src="/dota-tiermaker/attr_intelligence.png" alt="intelligence" className="herolist__attr-icon" />
           <h3 className="herolist__attr-name">Intelligence</h3>
         </div>
         <ul className="herolist__container">
           {heroesState?.map((h: Hero) => {
             return h.primary_attr === 2 ? (
+              <HeroBox hero={h} key={h.name_loc} />
+            ) : null;
+          })}
+        </ul>
+      </div>
+
+      <div className="herolist__attr herolist__uni">
+        <div className="herolist__attr-box">
+          <h3 className="herolist__attr-name">Universal</h3>
+        </div>
+        <ul className="herolist__container">
+          {heroesState?.map((h: Hero) => {
+            return h.primary_attr === 3 ? (
               <HeroBox hero={h} key={h.name_loc} />
             ) : null;
           })}
