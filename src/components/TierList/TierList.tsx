@@ -1,4 +1,7 @@
 import "./TierList.css";
+import { RootState } from "../../store/store.ts";
+import { Hero } from "../../types/Hero.ts";
+import { Tier } from "../../types/ChooseTierMenu.ts";
 import { useDispatch, useSelector } from "react-redux";
 import {
   setSTierHeroes,
@@ -7,19 +10,24 @@ import {
   setCTierHeroes,
   setDTierHeroes,
   clearAllTierHeroes,
-} from "../../store/slices/tierlistSlice";
+} from "../../store/slices/tierlistSlice.ts";
 import { useDrop } from "react-dnd";
 import HeroBox from "../HeroBox/HeroBox.tsx";
 
+interface DropItem {
+  hero: Hero;
+}
+
 const TierList = () => {
-  const sTier = useSelector((state) => state.tierlist.sTier);
-  const aTier = useSelector((state) => state.tierlist.aTier);
-  const bTier = useSelector((state) => state.tierlist.bTier);
-  const cTier = useSelector((state) => state.tierlist.cTier);
-  const dTier = useSelector((state) => state.tierlist.dTier);
+  const sTier = useSelector((state: RootState) => state.tierlist.sTier);
+  const aTier = useSelector((state: RootState) => state.tierlist.aTier);
+  const bTier = useSelector((state: RootState) => state.tierlist.bTier);
+  const cTier = useSelector((state: RootState) => state.tierlist.cTier);
+  const dTier = useSelector((state: RootState) => state.tierlist.dTier);
   const dispatch = useDispatch();
 
-  const handleDrop = (item, tier) => {
+  const handleDrop = (item: DropItem, tier: Tier) => {
+    console.log(item)
     const { hero } = item;
     console.log(`Dropped hero: ${hero.name} into tier: ${tier}`);
     switch (tier) {
@@ -45,7 +53,7 @@ const TierList = () => {
 
   const [{ isOverS }, dropS] = useDrop(() => ({
     accept: "hero",
-    drop: (item) => handleDrop(item, "S"),
+    drop: (item: DropItem) => handleDrop(item, "S"),
     collect: (monitor) => ({
       isOverS: !!monitor.isOver(),
     }),
@@ -53,7 +61,7 @@ const TierList = () => {
 
   const [{ isOverA }, dropA] = useDrop(() => ({
     accept: "hero",
-    drop: (item) => handleDrop(item, "A"),
+    drop: (item: DropItem) => handleDrop(item, "A"),
     collect: (monitor) => ({
       isOverA: !!monitor.isOver(),
     }),
@@ -61,7 +69,7 @@ const TierList = () => {
 
   const [{ isOverB }, dropB] = useDrop(() => ({
     accept: "hero",
-    drop: (item) => handleDrop(item, "B"),
+    drop: (item: DropItem) => handleDrop(item, "B"),
     collect: (monitor) => ({
       isOverB: !!monitor.isOver(),
     }),
@@ -69,7 +77,7 @@ const TierList = () => {
 
   const [{ isOverC }, dropC] = useDrop(() => ({
     accept: "hero",
-    drop: (item) => handleDrop(item, "C"),
+    drop: (item: DropItem) => handleDrop(item, "C"),
     collect: (monitor) => ({
       isOverC: !!monitor.isOver(),
     }),
@@ -77,7 +85,7 @@ const TierList = () => {
 
   const [{ isOverD }, dropD] = useDrop(() => ({
     accept: "hero",
-    drop: (item) => handleDrop(item, "D"),
+    drop: (item: DropItem) => handleDrop(item, "D"),
     collect: (monitor) => ({
       isOverD: !!monitor.isOver(),
     }),
@@ -96,8 +104,8 @@ const TierList = () => {
           className="tierlist__heroes"
           style={{ backgroundColor: isOverS ? "rgb(83, 83, 83)" : "#242424" }}
         >
-          {sTier.map((tier) => {
-            return <HeroBox key={tier.id} hero={tier} />;
+          {sTier.map((hero: Hero) => {
+            return <HeroBox key={hero.id} hero={hero} />;
           })}
         </div>
         <div className="tierlist__tier tierlist__tier_a">A</div>
@@ -106,8 +114,8 @@ const TierList = () => {
           className="tierlist__heroes"
           style={{ backgroundColor: isOverA ? "rgb(83, 83, 83)" : "#242424" }}
         >
-          {aTier.map((tier) => {
-            return <HeroBox key={tier.id} hero={tier} />;
+          {aTier.map((hero: Hero) => {
+            return <HeroBox key={hero.id} hero={hero} />;
           })}
         </div>
         <div className="tierlist__tier tierlist__tier_b">B</div>
@@ -116,8 +124,8 @@ const TierList = () => {
           className="tierlist__heroes"
           style={{ backgroundColor: isOverB ? "rgb(83, 83, 83)" : "#242424" }}
         >
-          {bTier.map((tier) => {
-            return <HeroBox key={tier.id} hero={tier} />;
+          {bTier.map((hero: Hero) => {
+            return <HeroBox key={hero.id} hero={hero} />;
           })}
         </div>
         <div className="tierlist__tier tierlist__tier_c">C</div>
@@ -126,8 +134,8 @@ const TierList = () => {
           className="tierlist__heroes"
           style={{ backgroundColor: isOverC ? "rgb(83, 83, 83)" : "#242424" }}
         >
-          {cTier.map((tier) => {
-            return <HeroBox key={tier.id} hero={tier} />;
+          {cTier.map((hero: Hero) => {
+            return <HeroBox key={hero.id} hero={hero} />;
           })}
         </div>
         <div className="tierlist__tier tierlist__tier_d">D</div>
@@ -136,8 +144,8 @@ const TierList = () => {
           className="tierlist__heroes"
           style={{ backgroundColor: isOverD ? "rgb(83, 83, 83)" : "#242424" }}
         >
-          {dTier.map((tier) => {
-            return <HeroBox key={tier.id} hero={tier} />;
+          {dTier.map((hero: Hero) => {
+            return <HeroBox key={hero.id} hero={hero} />;
           })}
         </div>
       </div>

@@ -1,7 +1,7 @@
-import React from 'react';
 import './ChooseTierMenu.css'
+import {ChooseTierMenuProps} from '../../types/ChooseTierMenu'
 
-const ChooseTierMenu = ({onChooseTier, onRemoveHero}) => {
+const ChooseTierMenu: React.FC<ChooseTierMenuProps> = ({onChooseTier, onRemoveHero}) => {
     return (
         <>
           <button className="tiermenu__choose tiermenu__choose_s" onClick={() => onChooseTier("S")}>S</button>

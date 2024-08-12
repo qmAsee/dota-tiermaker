@@ -1,4 +1,6 @@
-export const heroes = [
+import { Hero } from "../types/Hero"
+
+export const heroes: Hero[] = [
     {
       "id": 1,
       "name": "npc_dota_hero_antimage",

@@ -1,13 +1,16 @@
 import "./HeroesList.css";
+import { Hero } from "../../types/Hero.ts";
+// import { HeroesState } from "../../store/slices/heroesSlice.ts";
+import { RootState } from "../../store/store.ts";
 import HeroBox from "../HeroBox/HeroBox.tsx";
-import { useEffect, useState } from "react";
-import { heroes } from "../../heroes_data/heroes";
+import { useEffect } from "react";
+import { heroes } from "../../heroes_data/heroes.ts";
 import { useDispatch, useSelector } from "react-redux";
-import { setHeroes } from "../../store/slices/heroesSlice";
+import { setHeroes } from "../../store/slices/heroesSlice.ts";
 
 
 const HeroesList = () => {
-  const heroesState = useSelector((state) => state.heroes.heroes);
+  const heroesState = useSelector((state: RootState) => state.heroes.heroes);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -16,11 +19,11 @@ const HeroesList = () => {
 
   async function fetchHeroes() {
     try {
-      const heroList = await new Promise((resolve, reject) => {
+      const heroList:Hero[] = await new Promise((resolve) => {
         resolve(heroes);
       });
 
-      const sortedHeroes = heroList.sort((a, b) =>
+      const sortedHeroes = heroList.slice().sort((a: Hero, b: Hero) =>
         a.name_loc.localeCompare(b.name_loc)
       );
       dispatch(setHeroes(sortedHeroes));
@@ -28,8 +31,6 @@ const HeroesList = () => {
       console.log(err);
     }
   }
-
-  console.log(heroesState[0]);
 
   return (
     <section className="herolist">
@@ -39,7 +40,7 @@ const HeroesList = () => {
           <h3 className="herolist__attr-name">Strength</h3>
         </div>
           <ul className="herolist__container">
-            {heroesState[0]?.map((h) => {
+            {heroesState?.map((h: Hero) => {
               return h.primary_attr === 0 ? (
                 <HeroBox hero={h} key={h.name_loc} />
               ) : null;
@@ -53,7 +54,7 @@ const HeroesList = () => {
           <h3 className="herolist__attr-name">Agility</h3>
         </div>
         <ul className="herolist__container">
-          {heroesState[0]?.map((h) => {
+          {heroesState?.map((h: Hero) => {
             return h.primary_attr === 1 ? (
               <HeroBox hero={h} key={h.name_loc} />
             ) : null;
@@ -67,7 +68,7 @@ const HeroesList = () => {
           <h3 className="herolist__attr-name">Intelligence</h3>
         </div>
         <ul className="herolist__container">
-          {heroesState[0]?.map((h) => {
+          {heroesState?.map((h: Hero) => {
             return h.primary_attr === 2 ? (
               <HeroBox hero={h} key={h.name_loc} />
             ) : null;

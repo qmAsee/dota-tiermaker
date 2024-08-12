@@ -1,6 +1,6 @@
-import {configureStore, combineReducers} from '@reduxjs/toolkit';
-import heroesReducer from './slices/heroesSlice';
-import tierlistReducer from './slices/tierlistSlice';
+import {configureStore, combineReducers, Store} from '@reduxjs/toolkit';
+import heroesReducer from './slices/heroesSlice.ts';
+import tierlistReducer from './slices/tierlistSlice.ts';
 
 import {
     persistStore,
@@ -13,6 +13,8 @@ import {
     REGISTER,
 } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
+
+export type RootState = ReturnType<typeof store.getState>
 
 const rootReducer = combineReducers({
     heroes: heroesReducer,
@@ -27,7 +29,7 @@ const persistConfig = {
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)
 
-const store = configureStore({
+const store:Store = configureStore({
     reducer: persistedReducer,
     middleware: (getDefaultMiddleware) =>
         getDefaultMiddleware({

@@ -1,4 +1,6 @@
 import './HeroBox.css'
+import { Hero } from '../../types/Hero.ts';
+import { Tier } from '../../types/ChooseTierMenu.ts'
 import { useDispatch } from 'react-redux';
 import { useState } from "react";
 import { useDrag } from 'react-dnd';
@@ -12,15 +14,19 @@ import {
   removeTierAHero,
   removeTierBHero,
   removeTierCHero,
-  removeTierDHero, } from "../../store/slices/tierlistSlice"
+  removeTierDHero, } from "../../store/slices/tierlistSlice.ts"
 import ChooseTierMenu from '../ChooseTierMenu/ChooseTierMenu';
 
-const HeroBox = ({ hero }) => {
+interface HeroBoxProps {
+  hero: Hero;
+}
+
+const HeroBox: React.FC<HeroBoxProps> = ({ hero }) => {
   const [showMenu, setShowMenu] = useState(false)
 
   const dispatch = useDispatch();
 
-  const [{ isDragging }, drag] = useDrag(() => ({
+  const [, drag] = useDrag(() => ({
     type: 'hero',
     item: { hero },
     collect: (monitor) => ({
@@ -36,7 +42,7 @@ const HeroBox = ({ hero }) => {
     setShowMenu(false)
   }
 
-  const handleTierSelection = (tier) => {
+  const handleTierSelection = (tier: Tier) => {
     switch (tier) {
       case 'S':
         dispatch(setSTierHeroes(hero));
