@@ -1,6 +1,5 @@
 import "./HeroesList.css";
 import { Hero } from "../../types/Hero.ts";
-// import { HeroesState } from "../../store/slices/heroesSlice.ts";
 import { RootState } from "../../store/store.ts";
 import HeroBox from "../HeroBox/HeroBox.tsx";
 import { useEffect } from "react";
@@ -36,7 +35,7 @@ const HeroesList = () => {
     <section className="herolist">
       <div className="herolist__attr herolist__str">
         <div className="herolist__attr-box">
-          <img src="./src/assets/attr_strength.png" alt="strength" className="herolist__attr-icon" />
+          <img src="../src/assets/attr_strength.png" alt="strength" className="herolist__attr-icon" />
           <h3 className="herolist__attr-name">Strength</h3>
         </div>
           <ul className="herolist__container">
@@ -50,7 +49,7 @@ const HeroesList = () => {
 
       <div className="herolist__attr herolist__str">
         <div className="herolist__attr-box">
-          <img src="./src/assets/attr_agility.png" alt="agility" className="herolist__attr-icon" />
+          <img src="../src/assets/attr_agility.png" alt="agility" className="herolist__attr-icon" />
           <h3 className="herolist__attr-name">Agility</h3>
         </div>
         <ul className="herolist__container">
@@ -64,7 +63,7 @@ const HeroesList = () => {
 
       <div className="herolist__attr herolist__str">
         <div className="herolist__attr-box">
-          <img src="./src/assets/attr_intelligence.png" alt="intelligence" className="herolist__attr-icon" />
+          <img src="../src/assets/attr_intelligence.png" alt="intelligence" className="herolist__attr-icon" />
           <h3 className="herolist__attr-name">Intelligence</h3>
         </div>
         <ul className="herolist__container">
