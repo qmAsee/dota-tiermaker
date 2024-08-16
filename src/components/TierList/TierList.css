@@ -11,7 +11,7 @@
 .tierlist {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    width: 800px;
     margin-bottom: 50px;
 }
 
@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 800px) {
     .tierlist {
-
+        width: 100%
     }
 
     .tierlist__buttons {
