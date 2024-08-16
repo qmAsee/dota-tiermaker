@@ -36,7 +36,7 @@
 } 
 
 .herobox__name {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: normal;
     margin: 0;
     line-height: 1.1;
@@ -46,4 +46,26 @@
 
 .herobox__icon {
     width: 70px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .herobox__icon {
+        width: 50px;
+    }
+
+    .herobox__name {
+        font-size: 10px;
+    }
+
+    .herobox__hero {
+        width: 55px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .herobox__name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }

@@ -77,6 +77,7 @@ const HeroesList = () => {
 
       <div className="herolist__attr herolist__uni">
         <div className="herolist__attr-box">
+          <img src="/dota-tiermaker/attr_universal.png" alt="universal" className="herolist__attr-icon" />
           <h3 className="herolist__attr-name">Universal</h3>
         </div>
         <ul className="herolist__container">

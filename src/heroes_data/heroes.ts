@@ -8,7 +8,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Anti-Mage",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png",
+      "image": "/dota-tiermaker/heroThumbnails/anti_mage.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -18,7 +18,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Axe",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/axe.png",
+      "image": "/dota-tiermaker/heroThumbnails/axe.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -28,7 +28,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Bane",
       "primary_attr": 3,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bane.png",
+      "image": "/dota-tiermaker/heroThumbnails/bane.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -38,7 +38,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Bloodseeker",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bloodseeker.png",
+      "image": "/dota-tiermaker/heroThumbnails/bloodseeker.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -68,7 +68,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Earthshaker",
       "primary_attr": 0,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earthshaker.png",
+      "image": "/dota-tiermaker/heroThumbnails/earthshaker.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -78,7 +78,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Juggernaut",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/juggernaut.png",
+      "image": "/dota-tiermaker/heroThumbnails/juggernaut.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -88,7 +88,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Mirana",
       "primary_attr": 3,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mirana.png",
+      "image": "/dota-tiermaker/heroThumbnails/mirana.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -108,7 +108,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Morphling",
       "primary_attr": 1,
       "complexity": 3,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/morphling.png",
+      "image": "/dota-tiermaker/heroThumbnails/morphling.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -128,7 +128,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Puck",
       "primary_attr": 2,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png",
+      "image": "/dota-tiermaker/heroThumbnails/puck.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -138,7 +138,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Pudge",
       "primary_attr": 0,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png",
+      "image": "/dota-tiermaker/heroThumbnails/pudge.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -148,7 +148,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Razor",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/razor.png",
+      "image": "/dota-tiermaker/heroThumbnails/razor.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -178,7 +178,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Sven",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png",
+      "image": "/dota-tiermaker/heroThumbnails/sven.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -188,7 +188,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Tiny",
       "primary_attr": 0,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tiny.png",
+      "image": "/dota-tiermaker/heroThumbnails/tiny.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -228,7 +228,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Kunkka",
       "primary_attr": 0,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/kunkka.png",
+      "image": "/dota-tiermaker/heroThumbnails/kunkka.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -238,7 +238,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Lina",
       "primary_attr": 2,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lina.png",
+      "image": "/dota-tiermaker/heroThumbnails/lina.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -248,7 +248,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Lich",
       "primary_attr": 2,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lich.png",
+      "image": "/dota-tiermaker/heroThumbnails/lich.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -258,7 +258,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Lion",
       "primary_attr": 2,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lion.png",
+      "image": "/dota-tiermaker/heroThumbnails/lion.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -278,7 +278,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Slardar",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slardar.png",
+      "image": "/dota-tiermaker/heroThumbnails/slardar.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -288,7 +288,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Tidehunter",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tidehunter.png",
+      "image": "/dota-tiermaker/heroThumbnails/tidehunter.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -308,7 +308,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Riki",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/riki.png",
+      "image": "/dota-tiermaker/heroThumbnails/riki.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -318,7 +318,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Enigma",
       "primary_attr": 3,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enigma.png",
+      "image": "/dota-tiermaker/heroThumbnails/enigma.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -328,7 +328,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Tinker",
       "primary_attr": 2,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tinker.png",
+      "image": "/dota-tiermaker/heroThumbnails/tinker.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -338,7 +338,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Sniper",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sniper.png",
+      "image": "/dota-tiermaker/heroThumbnails/sniper.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -358,7 +358,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Warlock",
       "primary_attr": 2,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/warlock.png",
+      "image": "/dota-tiermaker/heroThumbnails/warlock.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -368,7 +368,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Beastmaster",
       "primary_attr": 0,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/beastmaster.png",
+      "image": "/dota-tiermaker/heroThumbnails/beastmaster.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -388,7 +388,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Venomancer",
       "primary_attr": 3,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/venomancer.png",
+      "image": "/dota-tiermaker/heroThumbnails/venomancer.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -438,7 +438,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Pugna",
       "primary_attr": 2,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pugna.png",
+      "image": "/dota-tiermaker/heroThumbnails/pugna.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -458,7 +458,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Viper",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/viper.png",
+      "image": "/dota-tiermaker/heroThumbnails/viper.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -468,7 +468,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Luna",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/luna.png",
+      "image": "/dota-tiermaker/heroThumbnails/luna.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -488,7 +488,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Dazzle",
       "primary_attr": 3,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dazzle.png",
+      "image": "/dota-tiermaker/heroThumbnails/dazzle.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -508,7 +508,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Leshrac",
       "primary_attr": 2,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/leshrac.png",
+      "image": "/dota-tiermaker/heroThumbnails/leshrac.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -548,7 +548,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Clinkz",
       "primary_attr": 1,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/clinkz.png",
+      "image": "/dota-tiermaker/heroThumbnails/clinkz.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -558,7 +558,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Omniknight",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/omniknight.png",
+      "image": "/dota-tiermaker/heroThumbnails/omniknight.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -568,7 +568,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Enchantress",
       "primary_attr": 2,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enchantress.png",
+      "image": "/dota-tiermaker/heroThumbnails/enchantress.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -578,7 +578,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Huskar",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/huskar.png",
+      "image": "/dota-tiermaker/heroThumbnails/huskar.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -598,7 +598,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Broodmother",
       "primary_attr": 3,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/broodmother.png",
+      "image": "/dota-tiermaker/heroThumbnails/broodmother.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -618,7 +618,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Weaver",
       "primary_attr": 1,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/weaver.png",
+      "image": "/dota-tiermaker/heroThumbnails/weaver.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -628,7 +628,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Jakiro",
       "primary_attr": 2,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/jakiro.png",
+      "image": "/dota-tiermaker/heroThumbnails/jakiro.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -638,7 +638,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Batrider",
       "primary_attr": 3,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/batrider.png",
+      "image": "/dota-tiermaker/heroThumbnails/batrider.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -648,7 +648,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Chen",
       "primary_attr": 3,
       "complexity": 3,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/chen.png",
+      "image": "/dota-tiermaker/heroThumbnails/chen.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -658,7 +658,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Spectre",
       "primary_attr": 1,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/spectre.png",
+      "image": "/dota-tiermaker/heroThumbnails/spectre.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -688,7 +688,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Ursa",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ursa.png",
+      "image": "/dota-tiermaker/heroThumbnails/ursa.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -708,7 +708,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Gyrocopter",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/gyrocopter.png",
+      "image": "/dota-tiermaker/heroThumbnails/gyrocopter.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -718,7 +718,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Alchemist",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png",
+      "image": "/dota-tiermaker/heroThumbnails/alchemist.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -728,7 +728,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Invoker",
       "primary_attr": 3,
       "complexity": 3,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/invoker.png",
+      "image": "/dota-tiermaker/heroThumbnails/invoker.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -738,7 +738,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Silencer",
       "primary_attr": 2,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/silencer.png",
+      "image": "/dota-tiermaker/heroThumbnails/silencer.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -758,7 +758,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Lycan",
       "primary_attr": 3,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lycan.png",
+      "image": "/dota-tiermaker/heroThumbnails/lycan.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -768,7 +768,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Brewmaster",
       "primary_attr": 3,
       "complexity": 3,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/brewmaster.png",
+      "image": "/dota-tiermaker/heroThumbnails/brewmaster.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -808,7 +808,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Meepo",
       "primary_attr": 1,
       "complexity": 3,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/meepo.png",
+      "image": "/dota-tiermaker/heroThumbnails/meepo.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -838,7 +838,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Undying",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/undying.png",
+      "image": "/dota-tiermaker/heroThumbnails/undying.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -848,7 +848,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Rubick",
       "primary_attr": 2,
       "complexity": 3,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rubick.png",
+      "image": "/dota-tiermaker/heroThumbnails/rubick.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -858,7 +858,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Disruptor",
       "primary_attr": 2,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/disruptor.png",
+      "image": "/dota-tiermaker/heroThumbnails/disruptor.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -898,7 +898,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Io",
       "primary_attr": 3,
       "complexity": 3,
-      "image": "/dota-tiermaker/heroThumbnails/io.png",
+      "image": "/dota-tiermaker/heroThumbnails/IO.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -908,7 +908,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Visage",
       "primary_attr": 3,
       "complexity": 3,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/visage.png",
+      "image": "/dota-tiermaker/heroThumbnails/visage.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -918,7 +918,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Slark",
       "primary_attr": 1,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slark.png",
+      "image": "/dota-tiermaker/heroThumbnails/slark.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -928,7 +928,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Medusa",
       "primary_attr": 1,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/medusa.png",
+      "image": "/dota-tiermaker/heroThumbnails/medusa.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -978,7 +978,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Bristleback",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bristleback.png",
+      "image": "/dota-tiermaker/heroThumbnails/bristleback.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -988,7 +988,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Tusk",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tusk.png",
+      "image": "/dota-tiermaker/heroThumbnails/tusk.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -1008,7 +1008,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Abaddon",
       "primary_attr": 3,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png",
+      "image": "/dota-tiermaker/heroThumbnails/abaddon.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -1058,7 +1058,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Terrorblade",
       "primary_attr": 1,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/terrorblade.png",
+      "image": "/dota-tiermaker/heroThumbnails/terrorblade.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -1068,7 +1068,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Phoenix",
       "primary_attr": 3,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phoenix.png",
+      "image": "/dota-tiermaker/heroThumbnails/phoenix.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -1078,7 +1078,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Oracle",
       "primary_attr": 2,
       "complexity": 3,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/oracle.png",
+      "image": "/dota-tiermaker/heroThumbnails/oracle.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -1088,7 +1088,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Techies",
       "primary_attr": 3,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/techies.png",
+      "image": "/dota-tiermaker/heroThumbnails/techies.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -1138,7 +1138,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Pangolier",
       "primary_attr": 3,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pangolier.png",
+      "image": "/dota-tiermaker/heroThumbnails/pangolier.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -1158,7 +1158,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Grimstroke",
       "primary_attr": 2,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/grimstroke.png",
+      "image": "/dota-tiermaker/heroThumbnails/grimstroke.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png"
     },
     {
@@ -1168,7 +1168,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Mars",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mars.png",
+      "image": "/dota-tiermaker/heroThumbnails/mars.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -1188,7 +1188,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Snapfire",
       "primary_attr": 3,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/snapfire.png",
+      "image": "/dota-tiermaker/heroThumbnails/snapfire.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -1198,7 +1198,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Hoodwink",
       "primary_attr": 1,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/hoodwink.png",
+      "image": "/dota-tiermaker/heroThumbnails/hoodwink.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png"
     },
     {
@@ -1208,7 +1208,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Dawnbreaker",
       "primary_attr": 0,
       "complexity": 1,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dawnbreaker.png",
+      "image": "/dota-tiermaker/heroThumbnails/dawnbreaker.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {
@@ -1218,7 +1218,7 @@ export const heroes: Hero[] = [
       "name_english_loc": "Marci",
       "primary_attr": 3,
       "complexity": 2,
-      "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/marci.png",
+      "image": "/dota-tiermaker/heroThumbnails/marci.png",
       "attribute_img": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png"
     },
     {

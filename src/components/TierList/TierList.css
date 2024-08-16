@@ -11,7 +11,7 @@
 .tierlist {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    max-width: 800px;
     margin-bottom: 50px;
 }
 
@@ -36,6 +36,27 @@
     display: flex;
     flex-wrap: wrap;
     padding: 7px;
+    background-color: rgb(203, 255, 203);
+}
+
+.tierlist__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tierlist__button {
+    width: 160px;
+    transition: transform .1s linear;
+    font-size: 16px;
+}
+
+.tierlist__button:hover {
+    transform: scale(1.1);
+}
+
+.tierlist__button_copy {
+    background-color: rgb(162, 162, 209);
+    color: black
 }
 
 .tierlist__tier_s {
@@ -56,5 +77,22 @@
 
 .tierlist__tier_d {
     background-color: rgb(255, 82, 82);
+}
+
+@media screen and (max-width: 800px) {
+    .tierlist {
+
+    }
+
+    .tierlist__buttons {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .tierlist__button {
+        width: 100px;
+        font-size: 13px;
+    }
 }
 

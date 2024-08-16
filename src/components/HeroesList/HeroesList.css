@@ -1,3 +1,10 @@
+.herolist {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    gap: 20px
+}
+
 .herolist__container {
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +13,8 @@
     padding: 0;
     margin-bottom: 10px;
     margin: 5px auto;
-    width: 93%;
+    max-width: 950px;
+    padding-left: 40px;
 }
 
 .herolist__list-box {
@@ -19,18 +27,12 @@
     list-style: none;
     display: flex;
     margin: 0 auto;
-    width: 60%
 }
 
 .herolist__attr-name {
     margin: 0;
     text-align: left;
     line-height: 1.9;
-}
-
-.herolist {
-    display: flex;
-    flex-direction: column;
 }
 
 .herolist__attr {
@@ -49,4 +51,12 @@
 .herolist__attr-icon {
     width: 35px;
     height: 35px;
+}
+
+@media screen and (max-width: 500px) {
+    .herolist__container {
+        width: fit-content;
+        justify-content: center;
+        padding-left: 0;
+    }
 }
